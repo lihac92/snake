@@ -61,5 +61,9 @@ namespace Snake
             sym = ' ';
             Draw();
         }
+        public override string ToString()
+		{
+			return x + ", " + y + ", " + sym;
+		}
     }
 }
